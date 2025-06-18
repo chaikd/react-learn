@@ -1,0 +1,182 @@
+[
+  {
+    "post_id": "P1001",
+    "title": "分享最新科技产品体验",
+    "content": "最近入手了新款智能手机，拍照效果令人惊艳，但电池续航略显不足。大家有什么优化建议吗？",
+    "author": "张明",
+    "create_time": "2023-05-12 14:30:00",
+    "comments": [
+      {
+        "comment_id": "C101",
+        "user_id": "U2023",
+        "username": "科技爱好者",
+        "avatar": "https://example.com/avatar1.jpg",
+        "content": "同款手机用户路过，建议关闭后台自动刷新，续航能提升20%",
+        "like_count": 24,
+        "create_time": "2023-05-12 15:45:22",
+        "is_author": false,
+        "replies": [
+          {
+            "reply_id": "R1001",
+            "parent_id": "C101",
+            "user_id": "U3056",
+            "username": "数码达人",
+            "content": "完全同意！另外把屏幕刷新率调到90Hz也很有帮助",
+            "like_count": 8,
+            "create_time": "2023-05-12 16:20:11",
+            "is_author": false
+          },
+          {
+            "reply_id": "R1002",
+            "parent_id": "R1001",
+            "user_id": "U2023",
+            "username": "科技爱好者",
+            "content": "谢谢建议，我这就试试看效果如何",
+            "like_count": 3,
+            "create_time": "2023-05-12 17:05:33",
+            "is_author": false
+          }
+        ]
+      },
+      {
+        "comment_id": "C102",
+        "user_id": "U4567",
+        "username": "摄影小白",
+        "avatar": "https://example.com/avatar2.jpg",
+        "content": "夜景模式拍月亮效果如何？想入手但担心夜景表现",
+        "like_count": 15,
+        "create_time": "2023-05-12 18:30:45",
+        "is_author": false,
+        "replies": [
+          {
+            "reply_id": "R1003",
+            "parent_id": "C102",
+            "user_id": "U1001",
+            "username": "张明",
+            "content": "夜景是强项！附上昨晚拍的月亮🌙[图片链接]",
+            "like_count": 32,
+            "create_time": "2023-05-12 19:15:28",
+            "is_author": true
+          }
+        ]
+      },
+      {
+        "comment_id": "C103",
+        "user_id": "U7890",
+        "username": "电池专家",
+        "avatar": "https://example.com/avatar3.jpg",
+        "content": "建议使用原装充电器，第三方充电器可能影响电池寿命",
+        "like_count": 18,
+        "create_time": "2023-05-13 09:20:17",
+        "is_author": false,
+        "replies": []
+      },
+      {
+        "comment_id": "C104",
+        "user_id": "U1122",
+        "username": "手游玩家",
+        "avatar": "https://example.com/avatar4.jpg",
+        "content": "游戏性能怎么样？玩原神会卡吗？",
+        "like_count": 12,
+        "create_time": "2023-05-13 11:45:39",
+        "is_author": false,
+        "replies": [
+          {
+            "reply_id": "R1004",
+            "parent_id": "C104",
+            "user_id": "U1001",
+            "username": "张明",
+            "content": "试过最高画质60帧，基本流畅，发热控制不错",
+            "like_count": 21,
+            "create_time": "2023-05-13 12:30:15",
+            "is_author": true
+          },
+          {
+            "reply_id": "R1005",
+            "parent_id": "R1004",
+            "user_id": "U1122",
+            "username": "手游玩家",
+            "content": "感谢实测！准备下单了👍",
+            "like_count": 5,
+            "create_time": "2023-05-13 13:22:48",
+            "is_author": false
+          }
+        ]
+      },
+      {
+        "comment_id": "C105",
+        "user_id": "U3344",
+        "username": "老用户",
+        "avatar": "https://example.com/avatar5.jpg",
+        "content": "系统更新后指纹识别变慢了，大家有同样问题吗？",
+        "like_count": 7,
+        "create_time": "2023-05-14 10:15:27",
+        "is_author": false,
+        "replies": [
+          {
+            "reply_id": "R1006",
+            "parent_id": "C105",
+            "user_id": "U5566",
+            "username": "技术支援",
+            "content": "尝试重新录入指纹，或者重置生物识别设置",
+            "like_count": 4,
+            "create_time": "2023-05-14 11:30:19",
+            "is_author": false
+          },
+          {
+            "reply_id": "R1007",
+            "parent_id": "R1006",
+            "user_id": "U3344",
+            "username": "老用户",
+            "content": "重置后确实好多了，感谢！",
+            "like_count": 2,
+            "create_time": "2023-05-14 12:45:03",
+            "is_author": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "P1002",
+    "title": "周末徒步路线推荐",
+    "content": "发现一条绝美山谷路线，难度适中适合新手，全程约5小时",
+    "author": "李悠然",
+    "create_time": "2023-06-10 09:15:00",
+    "comments": [
+      {
+        "comment_id": "C201",
+        "user_id": "U7788",
+        "username": "户外探险",
+        "avatar": "https://example.com/avatar6.jpg",
+        "content": "求具体坐标！周末正想带家人去徒步",
+        "like_count": 9,
+        "create_time": "2023-06-10 10:20:45",
+        "is_author": false,
+        "replies": [
+          {
+            "reply_id": "R2001",
+            "parent_id": "C201",
+            "user_id": "U1002",
+            "username": "李悠然",
+            "content": "定位已私信发你，入口有点隐蔽要注意看指示牌",
+            "like_count": 6,
+            "create_time": "2023-06-10 11:05:33",
+            "is_author": true
+          }
+        ]
+      },
+      {
+        "comment_id": "C202",
+        "user_id": "U9900",
+        "username": "摄影旅人",
+        "avatar": "https://example.com/avatar7.jpg",
+        "content": "拍到了超美的云海！感谢推荐[图片链接]",
+        "like_count": 28,
+        "create_time": "2023-06-11 14:30:22",
+        "is_author": false,
+        "replies": []
+      }
+    ]
+  }
+]

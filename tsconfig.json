@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "ESNext"
+    ],
+  },
+  "resolve": {
+    "alias": {
+      "@": "/src"
+    }
+  }
+}

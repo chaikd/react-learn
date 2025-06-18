@@ -1,0 +1,61 @@
+{
+  "user_id": "U10086",
+  "username": "数码达人小王",
+  "full_name": "王明轩",
+  "gender": "男",
+  "email": "wang.mingxuan@example.com",
+  "phone": "13800138000",
+  "location": "北京市海淀区",
+  "birthdate": "1995-08-12",
+  "register_date": "2020-03-15 14:30:22",
+  "last_login": "2023-10-25 09:15:33",
+  "avatar_url": "https://cdn.example.com/avatars/u10086.jpg",
+  "cover_image": "https://cdn.example.com/covers/u10086-banner.jpg",
+  "bio": "科技爱好者 | 摄影发烧友 | 分享最新数码产品体验",
+  "website": "https://tech-blog.wang.com",
+  "social_media": {
+    "weibo": "@数码小王",
+    "bilibili": "UID:12345678",
+    "zhihu": "wangmingxuan"
+  },
+  "interests": ["智能手机", "摄影器材", "AI技术", "电竞设备"],
+  "education": {
+    "university": "北京大学",
+    "major": "计算机科学与技术",
+    "graduation_year": 2018
+  },
+  "occupation": "科技自媒体创作者",
+  "status": "在线",
+  "is_verified": true,
+  "is_vip": true,
+  "follower_count": 12580,
+  "following_count": 362,
+  "post_count": 243,
+  "preferences": {
+    "theme": "dark",
+    "language": "zh-CN",
+    "notification_settings": {
+      "comments": true,
+      "mentions": true,
+      "new_followers": true,
+      "promotions": false
+    }
+  },
+  "achievements": [
+    "2022年度科技领域优质创作者",
+    "百万播放量勋章",
+    "社区答疑专家"
+  ],
+  "devices": [
+    {
+      "type": "phone",
+      "model": "iPhone 14 Pro",
+      "os": "iOS 16"
+    },
+    {
+      "type": "laptop",
+      "model": "MacBook Pro 16-inch",
+      "os": "macOS Ventura"
+    }
+  ]
+}
