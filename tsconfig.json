@@ -1,14 +1,16 @@
 {
   "compilerOptions": {
     "jsx": "react",
+    "esModuleInterop": true,
     "lib": [
       "dom",
       "ESNext"
     ],
-  },
-  "resolve": {
-    "alias": {
-      "@": "/src"
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
     }
   }
 }
