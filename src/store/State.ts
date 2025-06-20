@@ -84,7 +84,7 @@ let nextButton = document.getElementById('nextButton');
 let header = document.getElementById('header');
 let moreButton = document.getElementById('moreButton');
 let description = document.getElementById('description');
-let image = document.getElementById('image');
+let image = document.getElementById('image') as HTMLImageElement;
 let sculptureList = [{
   name: 'Homenaje a la Neurocirugía',
   artist: 'Marta Colvin Andrade',
