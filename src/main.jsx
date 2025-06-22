@@ -2,14 +2,13 @@
 import {BrowserRouter} from 'react-router'
 import { createRoot } from 'react-dom/client'
 
-
 import './styles/index.css'
 import App from './pages/App'
 import { Provider } from 'react-redux'
 // import App from './pages/Welcom'
 import store from './store/index';
 // import routes from '@/routers/routes'
-
+import 'antd-mobile/es/global'
 
 createRoot(document.getElementById('root')).render(
   // <BrowserRouter>

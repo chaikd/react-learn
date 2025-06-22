@@ -1,7 +1,7 @@
 import { useActionState } from "react";
 import { addToCart } from "./actions";
-import * as React from 'react'
 import './index.scss'
+import { useParams } from "react-router";
 
 function AddToCartForm({itemID, itemTitle}) {
   const [message, formAction, isPending] = useActionState(addToCart, null);
@@ -17,6 +17,8 @@ function AddToCartForm({itemID, itemTitle}) {
 }
 
 export default function App() {
+  const params = useParams()
+  let id = params.id
   return (
     <>
       <AddToCartForm itemID="1" itemTitle="JavaScript：权威指南" />

@@ -8,11 +8,13 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "serve": "json-server server/data.json --port 3004"
+    "serve": "json-server server/*.json --port 3004"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
     "alova": "^3.3.3",
+    "antd-mobile": "^5.39.0",
+    "antd-mobile-icons": "^0.3.0",
     "axios": "^1.10.0",
     "classnames": "^2.5.1",
     "dayjs": "^1.11.13",

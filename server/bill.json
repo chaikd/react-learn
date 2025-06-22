@@ -1,0 +1,512 @@
+{
+  "user_id": "U10086",
+  "username": "数码达人小王",
+  "billing_data": {
+    "current_month": {
+      "month": "2025-10",
+      "income": 28560.50,
+      "expenses": 19420.30,
+      "balance": 9140.20,
+      "currency": "CNY",
+      "transactions": [
+        {
+          "id": "T20251001",
+          "date": "2025-10-05",
+          "type": "收入",
+          "category": "工资",
+          "amount": 22000.00,
+          "description": "月度工资",
+          "payment_method": "银行转账"
+        },
+        {
+          "id": "T20251002",
+          "date": "2025-10-05",
+          "type": "收入",
+          "category": "奖金",
+          "amount": 1500.00,
+          "description": "季度绩效奖金",
+          "payment_method": "银行转账"
+        },
+        {
+          "id": "T20251003",
+          "date": "2025-10-12",
+          "type": "收入",
+          "category": "稿费",
+          "amount": 4560.50,
+          "description": "科技专栏稿费",
+          "payment_method": "支付宝"
+        },
+        {
+          "id": "T20251004",
+          "date": "2025-10-08",
+          "type": "支出",
+          "category": "住房",
+          "amount": 6500.00,
+          "description": "房租",
+          "payment_method": "银行转账"
+        },
+        {
+          "id": "T20251005",
+          "date": "2025-10-08",
+          "type": "支出",
+          "category": "水电",
+          "amount": 420.50,
+          "description": "水电费",
+          "payment_method": "支付宝"
+        },
+        {
+          "id": "T20251006",
+          "date": "2025-10-15",
+          "type": "支出",
+          "category": "数码产品",
+          "amount": 8999.00,
+          "description": "新款智能手机",
+          "payment_method": "信用卡"
+        },
+        {
+          "id": "T20251007",
+          "date": "2025-10-15",
+          "type": "支出",
+          "category": "配件",
+          "amount": 599.00,
+          "description": "手机配件",
+          "payment_method": "微信支付"
+        },
+        {
+          "id": "T20251008",
+          "date": "2025-10-20",
+          "type": "支出",
+          "category": "餐饮",
+          "amount": 680.00,
+          "description": "午餐",
+          "payment_method": "微信支付"
+        },
+        {
+          "id": "T20251009",
+          "date": "2025-10-20",
+          "type": "支出",
+          "category": "娱乐",
+          "amount": 320.00,
+          "description": "电影票",
+          "payment_method": "支付宝"
+        },
+        {
+          "id": "T20251010",
+          "date": "2025-10-20",
+          "type": "支出",
+          "category": "餐饮",
+          "amount": 380.00,
+          "description": "晚餐",
+          "payment_method": "微信支付"
+        },
+        {
+          "id": "T20251011",
+          "date": "2025-10-20",
+          "type": "支出",
+          "category": "购物",
+          "amount": 260.00,
+          "description": "零食饮料",
+          "payment_method": "支付宝"
+        },
+        {
+          "id": "T20251012",
+          "date": "2025-10-25",
+          "type": "支出",
+          "category": "交通",
+          "amount": 450.50,
+          "description": "打车费",
+          "payment_method": "微信支付"
+        },
+        {
+          "id": "T20251013",
+          "date": "2025-10-25",
+          "type": "支出",
+          "category": "餐饮",
+          "amount": 280.00,
+          "description": "咖啡厅",
+          "payment_method": "支付宝"
+        },
+        {
+          "id": "T20251014",
+          "date": "2025-10-25",
+          "type": "支出",
+          "category": "娱乐",
+          "amount": 130.00,
+          "description": "游戏充值",
+          "payment_method": "微信支付"
+        },
+        {
+          "id": "T20251015",
+          "date": "2025-10-28",
+          "type": "支出",
+          "category": "娱乐",
+          "amount": 240.00,
+          "description": "KTV",
+          "payment_method": "支付宝"
+        },
+        {
+          "id": "T20251016",
+          "date": "2025-10-28",
+          "type": "支出",
+          "category": "餐饮",
+          "amount": 500.00,
+          "description": "夜宵烧烤",
+          "payment_method": "微信支付"
+        }
+      ]
+    },
+    "monthly_summary": [
+      {
+        "month": "2025-01",
+        "income": 24500.00,
+        "expenses": 18230.50,
+        "balance": 6269.50,
+        "transactions": [
+          {
+            "id": "T20250101",
+            "date": "2025-01-10",
+            "type": "收入",
+            "category": "工资",
+            "amount": 22000.00,
+            "description": "月度工资"
+          },
+          {
+            "id": "T20250102",
+            "date": "2025-01-15",
+            "type": "支出",
+            "category": "数码产品",
+            "amount": 8500.00,
+            "description": "笔记本电脑"
+          },
+          {
+            "id": "T20250103",
+            "date": "2025-01-20",
+            "type": "支出",
+            "category": "餐饮",
+            "amount": 380.00,
+            "description": "午餐"
+          },
+          {
+            "id": "T20250104",
+            "date": "2025-01-20",
+            "type": "支出",
+            "category": "娱乐",
+            "amount": 180.00,
+            "description": "电影票"
+          },
+          {
+            "id": "T20250105",
+            "date": "2025-01-20",
+            "type": "支出",
+            "category": "餐饮",
+            "amount": 420.00,
+            "description": "晚餐"
+          }
+        ]
+      },
+      {
+        "month": "2025-02",
+        "income": 25200.00,
+        "expenses": 16540.20,
+        "balance": 8659.80,
+        "transactions": [
+          {
+            "id": "T20250201",
+            "date": "2025-02-05",
+            "type": "收入",
+            "category": "工资",
+            "amount": 22000.00,
+            "description": "月度工资"
+          },
+          {
+            "id": "T20250202",
+            "date": "2025-02-10",
+            "type": "支出",
+            "category": "旅行",
+            "amount": 6800.00,
+            "description": "春节旅行"
+          },
+          {
+            "id": "T20250203",
+            "date": "2025-02-14",
+            "type": "支出",
+            "category": "餐饮",
+            "amount": 880.00,
+            "description": "情人节晚餐"
+          },
+          {
+            "id": "T20250204",
+            "date": "2025-02-14",
+            "type": "支出",
+            "category": "礼物",
+            "amount": 1200.00,
+            "description": "玫瑰花"
+          },
+          {
+            "id": "T20250205",
+            "date": "2025-02-14",
+            "type": "支出",
+            "category": "娱乐",
+            "amount": 280.00,
+            "description": "电影院"
+          }
+        ]
+      },
+      {
+        "month": "2025-03",
+        "income": 26800.00,
+        "expenses": 21450.80,
+        "balance": 5349.20,
+        "transactions": [
+          {
+            "id": "T20250301",
+            "date": "2025-03-05",
+            "type": "收入",
+            "category": "工资",
+            "amount": 22000.00,
+            "description": "月度工资"
+          },
+          {
+            "id": "T20250302",
+            "date": "2025-03-12",
+            "type": "收入",
+            "category": "稿费",
+            "amount": 4800.00,
+            "description": "专栏稿费"
+          },
+          {
+            "id": "T20250303",
+            "date": "2025-03-20",
+            "type": "支出",
+            "category": "数码产品",
+            "amount": 12500.00,
+            "description": "相机镜头"
+          },
+          {
+            "id": "T20250304",
+            "date": "2025-03-28",
+            "type": "支出",
+            "category": "餐饮",
+            "amount": 350.00,
+            "description": "朋友聚餐"
+          },
+          {
+            "id": "T20250305",
+            "date": "2025-03-28",
+            "type": "支出",
+            "category": "娱乐",
+            "amount": 260.00,
+            "description": "KTV"
+          }
+        ]
+      },
+      {
+        "month": "2025-06",
+        "income": 28560.50,
+        "expenses": 19420.30,
+        "balance": 9140.20,
+        "transactions": [
+          {
+            "id": "T20251001",
+            "date": "2025-06-05",
+            "type": "收入",
+            "category": "工资",
+            "amount": 22000.00,
+            "description": "月度工资"
+          },
+          {
+            "id": "T20251002",
+            "date": "2025-06-05",
+            "type": "收入",
+            "category": "奖金",
+            "amount": 1500.00,
+            "description": "季度绩效奖金"
+          },
+          {
+            "id": "T20251004",
+            "date": "2025-06-08",
+            "type": "支出",
+            "category": "住房",
+            "amount": 6500.00,
+            "description": "房租"
+          },
+          {
+            "id": "T20251005",
+            "date": "2025-06-08",
+            "type": "支出",
+            "category": "水电",
+            "amount": 420.50,
+            "description": "水电费"
+          },
+          {
+            "id": "T20251006",
+            "date": "2025-06-15",
+            "type": "支出",
+            "category": "数码产品",
+            "amount": 8999.00,
+            "description": "新款智能手机"
+          },
+          {
+            "id": "T20251008",
+            "date": "2025-06-20",
+            "type": "支出",
+            "category": "餐饮",
+            "amount": 680.00,
+            "description": "午餐"
+          },
+          {
+            "id": "T20251009",
+            "date": "2025-06-20",
+            "type": "支出",
+            "category": "娱乐",
+            "amount": 320.00,
+            "description": "电影票"
+          },
+          {
+            "id": "T20251010",
+            "date": "2025-06-20",
+            "type": "支出",
+            "category": "餐饮",
+            "amount": 380.00,
+            "description": "晚餐"
+          }
+        ]
+      }
+    ],
+    "annual_summary": [
+      {
+        "year": "2023",
+        "total_income": 268500.00,
+        "total_expenses": 214600.80,
+        "net_balance": 53899.20,
+        "main_income_sources": ["工资", "稿费", "项目奖金"],
+        "main_expense_categories": [
+          {"category": "住房", "amount": 78000.00},
+          {"category": "数码产品", "amount": 45600.00},
+          {"category": "餐饮", "amount": 32400.50}
+        ]
+      },
+      {
+        "year": "2024",
+        "total_income": 302800.50,
+        "total_expenses": 245320.60,
+        "net_balance": 57479.90,
+        "main_income_sources": ["工资", "稿费", "咨询费"],
+        "main_expense_categories": [
+          {"category": "住房", "amount": 84000.00},
+          {"category": "数码产品", "amount": 52200.00},
+          {"category": "旅行", "amount": 38600.00}
+        ]
+      },
+      {
+        "year": "2025",
+        "total_income": 278860.50,
+        "total_expenses": 179433.00,
+        "net_balance": 99427.50,
+        "projected_year_end": {
+          "projected_income": 335000.00,
+          "projected_expenses": 225000.00,
+          "projected_balance": 110000.00
+        },
+        "main_income_sources": ["工资", "稿费", "广告收入"],
+        "main_expense_categories": [
+          {"category": "住房", "amount": 65000.00},
+          {"category": "数码产品", "amount": 42000.00},
+          {"category": "餐饮娱乐", "amount": 28500.00}
+        ],
+        "financial_health": "良好",
+        "savings_rate": 35.6
+      }
+    ],
+    "payment_methods": [
+      {
+        "method": "支付宝",
+        "usage_percentage": 45,
+        "monthly_avg": 8600.50
+      },
+      {
+        "method": "微信支付",
+        "usage_percentage": 30,
+        "monthly_avg": 5730.80
+      },
+      {
+        "method": "信用卡",
+        "usage_percentage": 20,
+        "monthly_avg": 3820.00
+      },
+      {
+        "method": "银行转账",
+        "usage_percentage": 5,
+        "monthly_avg": 950.00
+      }
+    ],
+    "expense_categories": [
+      {
+        "category": "住房",
+        "monthly_avg": 6500.00,
+        "annual_total": 65000.00,
+        "percentage": 36.2
+      },
+      {
+        "category": "数码产品",
+        "monthly_avg": 4200.00,
+        "annual_total": 42000.00,
+        "percentage": 23.4
+      },
+      {
+        "category": "餐饮娱乐",
+        "monthly_avg": 3800.00,
+        "annual_total": 38000.00,
+        "percentage": 21.2
+      },
+      {
+        "category": "交通",
+        "monthly_avg": 1200.00,
+        "annual_total": 12000.00,
+        "percentage": 6.7
+      },
+      {
+        "category": "其他",
+        "monthly_avg": 2533.30,
+        "annual_total": 25333.00,
+        "percentage": 14.1
+      }
+    ],
+    "budget_vs_actual": {
+      "monthly_budget": 20000.00,
+      "actual_spending": 19420.30,
+      "variance": -579.70,
+      "status": "低于预算"
+    },
+    "recurring_payments": [
+      {
+        "id": "RP001",
+        "description": "公寓房租",
+        "amount": 6500.00,
+        "frequency": "每月5日",
+        "payment_method": "银行转账"
+      },
+      {
+        "id": "RP002",
+        "description": "云服务器租用",
+        "amount": 320.00,
+        "frequency": "每月15日",
+        "payment_method": "支付宝"
+      },
+      {
+        "id": "RP003",
+        "description": "视频会员订阅",
+        "amount": 45.00,
+        "frequency": "每月20日",
+        "payment_method": "微信支付"
+      },
+      {
+        "id": "RP004",
+        "description": "健身房会员",
+        "amount": 380.00,
+        "frequency": "每月25日",
+        "payment_method": "支付宝"
+      }
+    ]
+  }
+}

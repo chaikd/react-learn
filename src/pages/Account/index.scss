@@ -1,0 +1,6 @@
+.account-theme {
+  --adm-color-primary: #A4DD00;
+  .text-color-primary {
+    color: var(--adm-color-primary)
+  }
+}
