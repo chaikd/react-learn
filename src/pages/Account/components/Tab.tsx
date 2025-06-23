@@ -16,7 +16,7 @@ export default function Tab() {
     {
       label: '记录',
       type: 'recommend',
-      href: '/account/recommend',
+      href: '/account/record',
       icon: <AddOutline />
     },
     {

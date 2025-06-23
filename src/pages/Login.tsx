@@ -1,10 +1,10 @@
-import * as React from 'react'
 import {useState} from 'react'
 import { asyncAuthInfo } from '@/store/modules/authSlice'
 import { useDispatch } from 'react-redux'
-import { useNavigate } from 'react-router'
+import { useLocation, useNavigate } from 'react-router'
 
 function Login() {
+  const location = useLocation()
   const [loginForm, setLoginForm] = useState({
     username: '',
     password: ''
@@ -26,9 +26,8 @@ function Login() {
   }
   const dispatch = useDispatch()
   async function login() {
-    console.log(loginForm)
     await dispatch<any>(asyncAuthInfo())
-    navigateto('/comments')
+    navigateto(location.state?.pathname || '/')
   }
   return (
     <>

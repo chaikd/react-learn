@@ -12,12 +12,13 @@ import AccountLayout from "@/pages/Layout/AccountLayout";
 import Account from "@/pages/Account";
 import MounthAccount from "@/pages/Account/Mounth";
 import YearAccount from "@/pages/Account/Year";
-import RecommendAccount from "@/pages/Account/Recommend";
+import RecordAccount from "@/pages/Account/Record";
 
 let router = createBrowserRouter([
   {
     path: '/',
     Component: DefaultLayout,
+    // element: <AuthGuard></DefaultLayout></AuthGuard>,
     children: [
       {
         index: true,
@@ -49,8 +50,8 @@ let router = createBrowserRouter([
         ]
       },
       {
-        path: 'recommend',
-        Component: RecommendAccount
+        path: 'record',
+        Component: RecordAccount
       }
     ]
   },

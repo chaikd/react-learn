@@ -1,0 +1,7 @@
+@use '@/styles/vars.scss';
+
+.record{
+  &.bg-color {
+    background-color: var(--v-color-success-light-8);
+  }
+}

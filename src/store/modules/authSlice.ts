@@ -1,11 +1,12 @@
 import { getUserInfo } from "@/http/auth";
+import { getToken, setToken } from "@/utils/token";
 import { createSlice } from "@reduxjs/toolkit";
 
 const authSlice = createSlice({
   name: 'auth',
   initialState: {
     userInfo: null,
-    authToken: null
+    authToken: getToken() || null
   },
   reducers: {
     setUserInfo(state, action) {
@@ -13,6 +14,7 @@ const authSlice = createSlice({
     },
     setAuthToken(state, action) {
       state.authToken = action.payload
+      setToken(action.payload)
     }
   }
 })
@@ -23,13 +25,13 @@ export {setUserInfo, setAuthToken}
 
 export const asyncAuthInfo = () => {
   return async (dispatch) => {
-    const userInfo = await getUserInfo()
+    const userInfo: any = await getUserInfo()
     dispatch(setUserInfo(userInfo))
+    dispatch(setAuthToken(userInfo.token))
   }
 }
 
 export const selectUserInfo = (state) => {
-  console.log('state: ', state);
   return state.auth.userInfo
 }
 export const selectAuthToken = (state) => {

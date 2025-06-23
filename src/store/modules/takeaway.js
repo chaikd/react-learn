@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit'
-import axios from 'axios'
+import request from '@/http/request';
 
 const takeawaySlice = createSlice({
   name: 'takeaway',
@@ -36,7 +36,7 @@ const { setTakeawayMenus, setCurrentMenu, setCartList, increCount, minusCount } 
 
 const setTakeawayMenusAsync = () => {
   return async (dispatch) => {
-    const res = await axios.get('http://localhost:3004/takeaway')
+    const res = await request('/takeaway')
     dispatch(setTakeawayMenus(res.data))
     dispatch(setCurrentMenu(res.data[0].tag))
   }

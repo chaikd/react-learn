@@ -7,11 +7,14 @@ import { asyncSetBill } from "@/store/modules/accountSlice";
 
 export default function Account() {
   const dispatch = useDispatch()
+  const {billData} = useSelector((state: any) => state.account)
   useEffect(() => {
-    dispatch<any>(asyncSetBill())
-  }, [dispatch])
+    if (!billData) {
+      dispatch<any>(asyncSetBill())
+    }
+  }, [])
   return <>
-    <div className="account-theme h-screen flex flex-col">
+    <div className="h-screen flex flex-col">
       <div className="flex-1 overflow-auto">
         <Outlet></Outlet>
       </div>

@@ -1,5 +1,5 @@
+import request from "@/http/request";
 import { createSlice } from "@reduxjs/toolkit";
-import axios from 'axios'
 
 const accountSlice = createSlice({
   name: 'account',
@@ -15,7 +15,7 @@ const accountSlice = createSlice({
 
 const asyncSetBill = () => {
   return async (dispatch) => {
-    const res = await axios('http://localhost:3004/billing_data')
+    const res = await request('/billing_data')
     dispatch(setBill(res.data))
   }
 }
