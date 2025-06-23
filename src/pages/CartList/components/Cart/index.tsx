@@ -2,17 +2,18 @@ import classNames from 'classnames'
 import Count from '../Count'
 import './index.scss'
 import { useDispatch, useSelector } from 'react-redux'
-import { increCount, minusCount, setCartList, takeawaySelector } from '@/store/modules/takeaway'
+import { increCount, minusCount, setCartList, takeawaySelector, type TakeawayProps } from '@/store/modules/takeaway'
 import { useState } from 'react'
 
 const Cart = () => {
-  const { cartList: cart } = useSelector(takeawaySelector)
+  const { cartList: cart }: TakeawayProps = useSelector(takeawaySelector)
   const [showList, setShowList] = useState(false)
   const dispatch = useDispatch()
   let m = Math.pow(10, 10)
   let totalCount = cart.reduce((pre, cur) => (pre + cur.count), 0)
   const totalPrice = cart.reduce((pre, cur) => {
-    return (parseInt((pre + (cur.price * cur.count)) * m) / m)
+    let num = (pre + (cur.price * cur.count)) * m
+    return (parseInt(num + '') / m)
   }, 0)
   const onMinus = (item) => {
     dispatch(minusCount(item.id))

@@ -22,7 +22,8 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-redux": "^9.2.0",
-    "react-router": "^7.6.2"
+    "react-router": "^7.6.2",
+    "zustand": "^5.0.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
@@ -40,8 +41,11 @@
     "globals": "^16.0.0",
     "json-server": "1.0.0-beta.3",
     "nodemon": "^3.1.10",
+    "rollup-plugin-visualizer": "^6.0.3",
     "sass": "^1.89.2",
     "tailwindcss": "^4.1.10",
-    "vite": "^6.3.5"
+    "terser": "^5.43.1",
+    "vite": "^6.3.5",
+    "vite-bundle-analyzer": "^0.22.3"
   }
 }

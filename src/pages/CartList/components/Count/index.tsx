@@ -1,6 +1,12 @@
 import './index.scss'
 
-const Count = ({ onPlus, onMinus, count }) => {
+type Props = {
+  onPlus: () => void
+  onMinus: () => void
+  count: any
+}
+
+const Count = ({ onPlus, onMinus, count }: Props) => {
   return (
     <div className="goods-count">
       <span className="minus" onClick={onMinus}>-</span>

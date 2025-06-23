@@ -5,8 +5,8 @@ import './index.scss'
 import avatar from '@/assets/react.svg'
 import * as _ from 'lodash'
 import dayjs from 'dayjs'
-import { useSelector } from 'react-redux';
-import { selectUserInfo } from '@/store/modules/authSlice';
+import { useDispatch, useSelector } from 'react-redux';
+import { selectUserInfo, asyncUserInfo } from '@/store/modules/authSlice';
 
 const CommentsContext = createContext(null)
 
@@ -45,17 +45,11 @@ function CommentInput() {
   let [msg, setMsg] = useState('')
   let refInput = useRef(null)
   let isSending = false
+  const dispatch = useDispatch()
+  useEffect(() => {
+    dispatch<any>(asyncUserInfo())
+  }, [])
   const userInfo = useSelector(selectUserInfo)
-  console.log('userInfo: ', userInfo);
-  // console.log(refDiv.current)
-  // let [userInfo, setUserInfo] = useState(null)
-  // async function getData() {
-  //   const info = await getUserInfo()
-  //   setUserInfo(info)
-  // }
-  // useEffect(() => {
-  //   getData()
-  // }, [])
   function sendMsg() {
     if (isSending) return
     setComments([

@@ -1,5 +1,6 @@
-import { getToken } from '@/utils/token'
+import { getToken, removeToken } from '@/utils/token'
 import axios from 'axios'
+import router from '@/routers/routes';
 
 const request = axios.create({
   baseURL: 'http://localhost:3004',
@@ -15,10 +16,12 @@ request.interceptors.request.use((req) => {
 })
 
 request.interceptors.response.use((res) => {
-  // if(res.status === 404) {
-  //   navigate('/404')
-  // }
-  return res
+  return res.data
+}, err => {
+  if(err.response.state === 401) {
+    removeToken()
+    router.navigate('/login')
+  }
 })
 
 export default request

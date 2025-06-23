@@ -1,6 +1,12 @@
 import { createSlice } from '@reduxjs/toolkit'
 import request from '@/http/request';
 
+export type TakeawayProps = {
+  menus: any,
+  currentMenu: any,
+  cartList: Array<any>
+}
+
 const takeawaySlice = createSlice({
   name: 'takeaway',
   initialState: {
@@ -37,8 +43,8 @@ const { setTakeawayMenus, setCurrentMenu, setCartList, increCount, minusCount } 
 const setTakeawayMenusAsync = () => {
   return async (dispatch) => {
     const res = await request('/takeaway')
-    dispatch(setTakeawayMenus(res.data))
-    dispatch(setCurrentMenu(res.data[0].tag))
+    dispatch(setTakeawayMenus(res))
+    dispatch(setCurrentMenu(res[0]?.tag))
   }
 }
 

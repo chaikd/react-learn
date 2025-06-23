@@ -1,4 +1,4 @@
-import { getUserInfo } from "@/http/auth";
+import { getUserInfo, login as loginFn } from "@/http/auth";
 import { getToken, setToken } from "@/utils/token";
 import { createSlice } from "@reduxjs/toolkit";
 
@@ -25,9 +25,15 @@ export {setUserInfo, setAuthToken}
 
 export const asyncAuthInfo = () => {
   return async (dispatch) => {
+    let res = await loginFn()
+    dispatch(setAuthToken(res.token))
+  }
+}
+
+export const asyncUserInfo = () => {
+  return async (dispatch) => {
     const userInfo: any = await getUserInfo()
     dispatch(setUserInfo(userInfo))
-    dispatch(setAuthToken(userInfo.token))
   }
 }
 
